@@ -297,7 +297,7 @@ public class UserParameters {
 	}
 
 	public static void main(String[] args) {
-		String name = "/Users/jacquisj/Documents/DevWorkspace/house/src/main/java/resources/userparams.txt";
+		String name = "/Users/jacquisj/Documents/DevWorkspace/XmlGateway/src/main/java/resources/userparams.txt";
 		
 		UserParameters uParam = new UserParameters(name );
 		uParam.setParamsintoHashMap(null);
