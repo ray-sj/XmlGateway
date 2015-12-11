@@ -74,7 +74,7 @@ public class UserParameters {
 	public UserParameters(String fName){
 		this.fName = fName;
 		file = new File(fName);
-		fSubmission = new HashMap<>();
+		fSubmission = new HashMap<String, String>();
 	}
 	
 	public String getLineofText(File file){
