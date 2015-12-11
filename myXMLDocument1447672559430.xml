@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Company>
+    <Name>My Company</Name>
+    <Executive type="CEO">
+        <LastName>Smith</LastName>
+        <FirstName>Jim</FirstName>
+        <street>Lavander Cottage</street>
+        <city>Mytown</city>
+        <state>NY</state>
+        <zip>11234</zip>
+        <phone>01646 880008</phone>
+    </Executive>
+</Company>

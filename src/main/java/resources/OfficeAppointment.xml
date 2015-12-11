@@ -1,0 +1,26 @@
+  <OfficerAppointment xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk http://xmlpreprod.orctel.internal/v1-0/schema/forms/OfficerAppointment-v2-7.xsd" xmlns="http://xmlgw.companieshouse.gov.uk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <AppointmentDate>2015-10-19</AppointmentDate>
+  <ConsentToAct>true</ConsentToAct>
+   <Director>
+    <Person>
+     <Forename>Jayne Sarah</Forename>
+     <Surname>Boyle</Surname>
+     <ServiceAddress>
+         <SameAsRegisteredOffice>true</SameAsRegisteredOffice>
+     </ServiceAddress>
+     <DOB>1967-04-18</DOB>
+     <Nationality>British</Nationality>
+     <Occupation>Director</Occupation>
+     <CountryOfResidence>UK</CountryOfResidence>
+     <ResidentialAddress>
+     <Address>
+      <Premise>30</Premise>
+      <Street>Howell Street</Street>
+      <PostTown>Pontypridd</PostTown>
+      <Country>GB-WLS</Country>
+      <Postcode>CF37 4NR</Postcode>
+     </Address>
+     </ResidentialAddress>
+    </Person>
+   </Director>
+  </OfficerAppointment>

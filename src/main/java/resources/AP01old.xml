@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GovTalkMessage
+	xsi:schemaLocation="http://www.govtalk.gov.uk/CM/envelope http://xmlmurdochtest.orctel.internal:8041/v1-0/schema/Egov_ch-v2-0.xsd"
+	xmlns="http://www.govtalk.gov.uk/CM/envelope" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:gt="http://www.govtalk.gov.uk/schemas/govtalk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EnvelopeVersion>1.0</EnvelopeVersion>
+	<Header>
+		<MessageDetails>
+			<Class>OfficerAppointment</Class>
+			<Qualifier>request</Qualifier>
+			<TransactionID></TransactionID>
+		</MessageDetails>
+		<SenderDetails>
+			<IDAuthentication>
+				<SenderID>SteveBowen</SenderID>
+				<Authentication>
+					<Method>clear</Method>
+					<Value>StevesPassword</Value>
+				</Authentication>
+			</IDAuthentication>
+			<EmailAddress>devtools@companieshouse.gov.uk</EmailAddress>
+		</SenderDetails>
+	</Header>
+	<GovTalkDetails>
+		<Keys />
+	</GovTalkDetails>
+	<Body>
+		<FormSubmission xmlns="http://xmlgw.companieshouse.gov.uk/Header"
+			xmlns:bs="http://xmlgw.companieshouse.gov.uk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk/Header http://xmlmurdochtest.orctel.internal:8041/v1-0/schema/forms/FormSubmission-v2-8.xsd">
+			<FormHeader>
+				<CompanyNumber>04901512</CompanyNumber>
+				<CompanyName>S T HUGHES LIMITED</CompanyName>
+				<CompanyAuthenticationCode>222222</CompanyAuthenticationCode>
+				<PackageReference>1828</PackageReference>
+				<FormIdentifier>OfficerAppointment</FormIdentifier>
+				<SubmissionNumber>AB4085</SubmissionNumber>
+				<ContactName>Test Team</ContactName>
+				<ContactNumber>2034 8497</ContactNumber>
+			</FormHeader>
+			<DateSigned>2010-05-15</DateSigned>
+			<Form>
+				<OfficerAppointment
+					xsi:schemaLocation="http://xmlgw.companieshouse.gov.uk http://xmlmurdochtest.orctel.internal:8041/v1-0/schema/forms/OfficerAppointment-v2-5-1.xsd"
+					xmlns="http://xmlgw.companieshouse.gov.uk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<AppointmentDate>2009-12-12</AppointmentDate>
+					<Authentication>
+						<PersonalAttribute>BIRTOWN</PersonalAttribute>
+						<PersonalData>aaa</PersonalData>
+					</Authentication>
+					<Authentication>
+						<PersonalAttribute>EYE</PersonalAttribute>
+						<PersonalData>gre</PersonalData>
+					</Authentication>
+					<Authentication>
+						<PersonalAttribute>DAD</PersonalAttribute>
+						<PersonalData>wil</PersonalData>
+					</Authentication>
+					<Director>
+						<Person>
+							<Forename>Jayne Sarah</Forename>
+							<Surname>Boyle</Surname>
+							<ServiceAddress>
+								<SameAsRegisteredOffice>true</SameAsRegisteredOffice>
+							</ServiceAddress>
+							<DOB>1967-04-18</DOB>
+							<Nationality>British</Nationality>
+							<Occupation>Director</Occupation>
+							<CountryOfResidence>UK</CountryOfResidence>
+							<ResidentialAddress>
+								<Address>
+									<Premise>30</Premise>
+									<Street>Howell Street</Street>
+									<PostTown>Pontypridd</PostTown>
+									<Country>GB-WLS</Country>
+									<Postcode>CF37 4NR</Postcode>
+								</Address>
+							</ResidentialAddress>
+						</Person>
+					</Director>
+				</OfficerAppointment>
+			</Form>
+		</FormSubmission>
+	</Body>
+</GovTalkMessage>
